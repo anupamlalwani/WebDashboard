@@ -1,0 +1,80 @@
+.home-button{
+padding-left: 20px;
+margin-left: 60px !important; 
+font-weight: 20;
+color: #ffffff !important;
+background-color: teal;
+text-align: center;
+}
+
+.home-button:hover{
+	color:teal !important;
+}
+
+body { 
+	/*padding-left : 70px; */
+background-color: #e6e6e6;
+}
+
+.navbar {
+padding: 0px;
+/*background: lightgrey;*/
+}
+
+.summary-pic,.summary-text{
+	display: inline;
+}
+
+/*.summary-text:hover{
+	color:blue;
+}*/
+
+.summary-pic{
+	width:50%;
+	float:left;
+}
+
+/*.col-sm-8{
+	padding:10px;
+	margin-color: grey;
+
+}*/
+
+.pie-chart{
+display: inline;
+}
+
+.all-pie-charts{
+	text-align: center;
+}
+
+.anu-left,.anu-right{
+	background-color: white;
+	/*margin: 5px;*/
+}
+
+.anu-left{
+	padding:30px;
+}
+
+/*.col-sm-8{
+	padding: 10px;
+}*/
+
+/*over-writing bootstrap*/
+
+/*@media (max-width: 480px) {
+  .container {
+    width: 450px;
+  }
+  body{
+  	background-color: blue;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px){
+	body{
+		background-color: green;
+	}
+}
+*/

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Visualization Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- above 2 lines of script tab - very important in same order to make dropdown menus work-->
+    <link rel="stylesheet" type="text/css" href="hwstyle.css">
+  </head>
+  <body>
+    <!-- <h1> Latitude </h1> -->
+    <nav class="navbar navbar-default">
+      <!-- <div class="container-fluid"> -->
+      <!-- <nav class="navbar navbar-default"> -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+          
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand home-button" href="#"><b>Latitude</b></a>
+        </div>
+        <div class="navbar-collapse collapse in navbar-right" id="bs-example-navbar-collapse-1" aria-expanded="false" style="">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+                <span class="caret"> </span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Plots 1-1</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Plots 1-2</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Plots 1-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#"> Comparision </a></li>
+            <li><a target="_blank" href="convertcsv.html"> Data </a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--------------starting the body text-->
+      <div class="container">
+        
+        <div class="row-fluid">
+          <div class="col-md-8 anu-left">
+          <h2> Summary : put something </h2>
+          <hr>
+            <div class="row">
+
+            <img src="assets_vizdash/wordcloud.png" class="img-responsive summary-pic" alt = "wordcloud">
+            <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            </div>
+          </div>
+          <div class="col-md-offset-1 col-md-3 anu-right">
+          <h2> Visualization : put something </h2>
+          <hr>
+          <div class="row all-pie-charts">
+            <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="width:120px" alt = "image6">
+            <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="width:120px" alt = "image7">
+            <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="width:120px" alt = "image7">
+            <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="width:120px" alt = "image7">
+          </div>
+     
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+          </div>
+        </div>
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+  </html>
