@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparision</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css"> -->
+    
+    <link rel="stylesheet" type="text/css" href="hwstyle.css">
+  </head>
+  <body>
+    <!-- <h1> Latitude </h1> -->
+    <nav class="navbar navbar-default">
+      <!-- <div class="container-fluid"> -->
+      <!-- <nav class="navbar navbar-default"> -->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle highlight" data-toggle=  "collapse" data-target="#bs-example-navbar-collapse-1"  aria-expanded="false">
+            <span class="sr-only"> Toggle navigation </span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <!--   <span class="glyphicon glyphicon-search home-icon"></span> -->
+          <a class="navbar-brand home-button glyphicon glyphicon-home " href="#">
+            <b> Latitude </b>
+          </a>
+        </div>
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown-highlight">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots 
+                <span class="caret"> </span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-highlight" ><a href="viz1.html" target="_blank">Viz1</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Plots 1-2</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Plots 1-3</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Plots 1-4</a></li>
+              </ul>
+            </li>
+            <li class="highlight"><a href="#"> Comparision </a></li>
+            <li class="highlight"><a target="_blank" href="convertcsv.html"> Data </a></li>
+            <li class="highlight"><a  href="#"> Code </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        <!--starting the body text-->
+
+      
+          <div class="container" style="background-color: white;">
+            <div class="row"> 
+              <div class="col-sm-12"> 
+                <h2> Comparisions </h2>
+                <hr>
+              </div>  
+            </div>
+
+            <div class="row"> 
+              <div class="col-sm-12"> 
+                <p> write something <p>
+                <hr>
+              </div>  
+            </div>
+            <div class="row all-pie-charts" style="border: 2px solid red"> <!--ROW1-->
+              
+              <div class="col-sm-6" style="border:2px solid green">
+                <div> <!--does lot of positioning work-->
+                  <figure>
+                    <a href="viz1.html" target="_blank">
+                      <img src="assets_vizdash/output_7_0.png" class="img-responsive rounded float-left pie-chart" style="max-width: 300px" alt = "image6">
+                    </a>
+                  </figure>
+                </div>
+
+                <div class="well"> <!--does lot of positioning work-->
+                  <figure>  
+                    <a href="#">
+                      <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="max-width: 300px" alt = "image7">
+                    </a>
+                  </figure>  
+                </div>
+
+              <div class="row all-pie-charts" style="border:2px solid blue"> <!--ROW2-->
+                <div class="col-sm-6" style="border:2px solid blue">  
+                  <a href="#">
+                    <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="max-width: 300px" alt = "image7">
+                  </a>
+                  <a href="#">  
+                    <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="max-width: 300px" alt = "image7">
+                  </a>
+                <!-- </div> -->
+            </div>
+            
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit </p> -->
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+  </html>

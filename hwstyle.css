@@ -1,25 +1,31 @@
+/*index.html*/
 .home-button{
-padding-left: 20px;
-margin-left: 60px !important; 
-font-weight: 20;
-color: #ffffff !important;
+padding: 15px;
+margin-left: 20px !important; 
+font-weight: 20 !important;
+color:white !important;
 background-color: teal;
 text-align: center;
 }
 
+
 .home-button:hover{
-	color:teal !important;
+	color:grey !important;
 }
+
+.highlight:hover{
+color: white !important;
+background-color: teal !important;
+background-image: none;
+
+}
+
 
 body { 
 	/*padding-left : 70px; */
-background-color: #e6e6e6;
+background-color: lightgrey;
 }
 
-.navbar {
-padding: 0px;
-/*background: lightgrey;*/
-}
 
 .summary-pic,.summary-text{
 	display: inline;
@@ -30,7 +36,7 @@ padding: 0px;
 }*/
 
 .summary-pic{
-	width:50%;
+	width:60%;
 	float:left;
 }
 
@@ -48,14 +54,54 @@ display: inline;
 	text-align: center;
 }
 
+.pie-chart:hover{
+	border: 3px solid grey;
+
+}
 .anu-left,.anu-right{
 	background-color: white;
-	/*margin: 5px;*/
+	margin: 10px;
 }
 
 .anu-left{
 	padding:30px;
 }
+
+/*convertcsv.html*/
+.datatable{
+padding:30px;
+margin-top: 30px;
+background-color: white;
+
+}
+
+/*viz1.html*/
+.viz1{
+margin: 5px;
+padding: 20px;
+
+}
+
+.comparision-img{
+display: inline;
+float:left;
+width: 70%;
+
+}
+
+thead{
+	background-color: teal;
+    color:white;
+ }
+
+.footer-format{
+background-color: teal;
+color: white;
+padding: 3px;
+text-align: center;
+
+}
+
 
 /*.col-sm-8{
 	padding: 10px;
