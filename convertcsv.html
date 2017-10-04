@@ -3,18 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data</title>
+    <title>Yelp Review and Vader Score Data</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- above 2 lines of script tab - very important in same order to make dropdown menus work-->
+    <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css"> -->
+    
     <link rel="stylesheet" type="text/css" href="hwstyle.css">
-    <style>
-    
-    }
-    
-    </style>
   </head>
-  <body style="background-color: #e6e6e6">
+  <body>
+    <!-- <h1> Latitude </h1> -->
     <nav class="navbar navbar-default">
       <!-- <div class="container-fluid"> -->
       <!-- <nav class="navbar navbar-default"> -->
@@ -26,38 +23,46 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand home-button glyphicon glyphicon-home" href="index.html">
+        <!--   <span class="glyphicon glyphicon-search home-icon"></span> -->
+          <a class="navbar-brand home-button " href="index.html">
+            <span class="glyphicon glyphicon-home"></span>
             <b> Latitude </b>
           </a>
         </div>
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+              <a class="dropdown-toggle highlight" data-toggle="dropdown" href="#">Plots 
                 <span class="caret"> </span>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="#">Plots 1-1</a></li>
+                <li class="dropdown-highlight " ><a href="viz1.html" target="_blank" class="highlight">Viz1</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">Plots 1-2</a></li>
+                <li><a href="#" class="highlight">Plots 1-2</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">Plots 1-3</a></li>
+                <li><a href="#" class="highlight">Plots 1-3</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">Plots 1-4</a></li>
+                <li><a href="#" class="highlight">Plots 1-4</a></li>
+                <li role="separator" class="divider"></li>
               </ul>
             </li>
-            <li><a href="#"> Comparision </a></li>
-            <li><a target="_blank" href="convertcsv.html"> Data </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a class="highlight" href="assets_vizdash/README.md"> Comparision </a></li>
+            <li> <a class="highlight" href="#"> 
+            <span class="glyphicon glyphicon-stat"></span>
+            Data
+            </a> </li>
+            <li><a class="highlight" href="#"> Code </a></li>
           </ul>
         </div>
-      </div>
+      </div
     </nav>
 
     <div class="container datatable">
     <h3>Yelp Reviews Vader Sentiment Score Analysis</h3>
     <hr>
         <p>Below table consists of the data used to create all the visualizations</p>
-        <div style="overflow-x: scroll;">
+        <div class="scroll"> 
             <table class="table table-striped table-bordered">
               <thead><tr><th title="Field #1">compound</th>
                 <th title="Field #2">compound_by_sent</th>
@@ -83,7 +88,7 @@
                 <th title="Field #22">range_pos_min</th>
                 <th title="Field #23">rating</th>
                 </tr></thead>
-                <tbody><tr>
+                <tbody ><tr>
                     <td align="right">0.1346</td>
                     <td align="right">0.0497</td>
                     <td align="right">0.0</td>
@@ -211,7 +216,7 @@
                   <tr>
                     <td align="right">0.2926</td>
                     <td align="right">0.2662</td>
-                    <td align="right">0.29674999999999996</td>
+                    <td align="right">0.296746</td>
                     <td align="right">0.0</td>
                     <td align="right">0.786</td>
                     <td align="right">0.15</td>
@@ -238,7 +243,7 @@
                     <td align="right">0.0579</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.9650000000000001</td>
+                    <td align="right">0.9650</td>
                     <td align="right">0.0</td>
                     <td>Tin Pan</td>
                     <td align="right">0.0839</td>
@@ -286,7 +291,7 @@
                   <tr>
                     <td align="right">0.3146</td>
                     <td align="right">0.2322</td>
-                    <td align="right">0.20679999999999998</td>
+                    <td align="right">0.20678</td>
                     <td align="right">0.0</td>
                     <td align="right">0.807</td>
                     <td align="right">0.128</td>
@@ -363,7 +368,7 @@
                     <td align="right">0.3102</td>
                     <td align="right">0.34405</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7955000000000001</td>
+                    <td align="right">0.7955</td>
                     <td align="right">0.1385</td>
                     <td>The Monte Carlo</td>
                     <td align="right">0.0421</td>
@@ -438,7 +443,7 @@
                     <td align="right">0.2873</td>
                     <td align="right">0.3291</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7975000000000001</td>
+                    <td align="right">0.7975</td>
                     <td align="right">0.1455</td>
                     <td>The Palace</td>
                     <td align="right">0.0486</td>
@@ -563,8 +568,8 @@
                     <td align="right">0.2005</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8454999999999999</td>
-                    <td align="right">0.08499999999999999</td>
+                    <td align="right">0.8454</td>
+                    <td align="right">0.0849</td>
                     <td>Caesar's Italian Restaurant</td>
                     <td align="right">0.0421</td>
                     <td align="right">0.038</td>
@@ -738,7 +743,7 @@
                     <td align="right">0.229</td>
                     <td align="right">0.2263</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8095000000000001</td>
+                    <td align="right">0.809</td>
                     <td align="right">0.123</td>
                     <td>Java Restaurant</td>
                     <td align="right">0.0508</td>
@@ -913,7 +918,7 @@
                     <td align="right">0.2845</td>
                     <td align="right">0.3182</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8035000000000001</td>
+                    <td align="right">0.8031</td>
                     <td align="right">0.142</td>
                     <td>Canteen</td>
                     <td align="right">0.035</td>
@@ -938,7 +943,7 @@
                     <td align="right">0.2302</td>
                     <td align="right">0.2263</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7795000000000001</td>
+                    <td align="right">0.779</td>
                     <td align="right">0.141</td>
                     <td>Fattoush</td>
                     <td align="right">0.0605</td>
@@ -1038,7 +1043,7 @@
                     <td align="right">0.2684</td>
                     <td align="right">0.2732</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7975000000000001</td>
+                    <td align="right">0.797</td>
                     <td align="right">0.149</td>
                     <td>Globe</td>
                     <td align="right">0.0442</td>
@@ -1263,7 +1268,7 @@
                     <td align="right">0.2318</td>
                     <td align="right">0.2023</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8194999999999999</td>
+                    <td align="right">0.8194</td>
                     <td align="right">0.1145</td>
                     <td>Moose's</td>
                     <td align="right">0.0359</td>
@@ -1688,7 +1693,7 @@
                     <td align="right">0.124</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8374999999999999</td>
+                    <td align="right">0.8374</td>
                     <td align="right">0.0</td>
                     <td>Ken's Kitchen</td>
                     <td align="right">0.0726</td>
@@ -1913,7 +1918,7 @@
                     <td align="right">0.2691</td>
                     <td align="right">0.2732</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7935000000000001</td>
+                    <td align="right">0.7935</td>
                     <td align="right">0.15</td>
                     <td>Coco500</td>
                     <td align="right">0.0316</td>
@@ -1963,7 +1968,7 @@
                     <td align="right">0.2681</td>
                     <td align="right">0.3182</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7835000000000001</td>
+                    <td align="right">0.7835</td>
                     <td align="right">0.157</td>
                     <td>Bay Watch Restaurant</td>
                     <td align="right">0.0331</td>
@@ -2013,7 +2018,7 @@
                     <td align="right">0.1214</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8154999999999999</td>
+                    <td align="right">0.8154</td>
                     <td align="right">0.0</td>
                     <td>Usulutan Restaurant</td>
                     <td align="right">0.072</td>
@@ -2288,8 +2293,8 @@
                     <td align="right">0.2354</td>
                     <td align="right">0.2732</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8674999999999999</td>
-                    <td align="right">0.08249999999999999</td>
+                    <td align="right">0.8674</td>
+                    <td align="right">0.0824</td>
                     <td>The Mandarin Restaurant</td>
                     <td align="right">0.0601</td>
                     <td align="right">0.0303</td>
@@ -2411,9 +2416,9 @@
                   <tr>
                     <td align="right">0.2906</td>
                     <td align="right">0.2499</td>
-                    <td align="right">0.23525000000000001</td>
+                    <td align="right">0.23525</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8035000000000001</td>
+                    <td align="right">0.8035</td>
                     <td align="right">0.129</td>
                     <td>Ponzu</td>
                     <td align="right">0.0319</td>
@@ -2838,7 +2843,7 @@
                     <td align="right">0.3007</td>
                     <td align="right">0.33375</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8075000000000001</td>
+                    <td align="right">0.8075</td>
                     <td align="right">0.155</td>
                     <td>Les Clos</td>
                     <td align="right">0.0274</td>
@@ -2936,7 +2941,7 @@
                   <tr>
                     <td align="right">0.3033</td>
                     <td align="right">0.2573</td>
-                    <td align="right">0.26654999999999995</td>
+                    <td align="right">0.266545</td>
                     <td align="right">0.0</td>
                     <td align="right">0.806</td>
                     <td align="right">0.1355</td>
@@ -2988,7 +2993,7 @@
                     <td align="right">0.1997</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8294999999999999</td>
+                    <td align="right">0.8294</td>
                     <td align="right">0.0685</td>
                     <td>Herbivore</td>
                     <td align="right">0.0502</td>
@@ -3038,7 +3043,7 @@
                     <td align="right">0.1844</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8154999999999999</td>
+                    <td align="right">0.8154</td>
                     <td align="right">0.0915</td>
                     <td>Farina</td>
                     <td align="right">0.0542</td>
@@ -3388,7 +3393,7 @@
                     <td align="right">0.2432</td>
                     <td align="right">0.17645</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7895000000000001</td>
+                    <td align="right">0.7895</td>
                     <td align="right">0.1345</td>
                     <td>Sukhothai Restaurant</td>
                     <td align="right">0.0411</td>
@@ -3439,7 +3444,7 @@
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
                     <td align="right">0.832</td>
-                    <td align="right">0.07050000000000001</td>
+                    <td align="right">0.07050</td>
                     <td>Hotei Restaurant</td>
                     <td align="right">0.0522</td>
                     <td align="right">0.0531</td>
@@ -3488,7 +3493,7 @@
                     <td align="right">0.2379</td>
                     <td align="right">0.102</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8514999999999999</td>
+                    <td align="right">0.8514</td>
                     <td align="right">0.046</td>
                     <td>Traktir-Skazka Restaurant</td>
                     <td align="right">0.0154</td>
@@ -3913,7 +3918,7 @@
                     <td align="right">0.1505</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8334999999999999</td>
+                    <td align="right">0.8334</td>
                     <td align="right">0.0</td>
                     <td>Medicine Eatstation</td>
                     <td align="right">0.0538</td>
@@ -4313,7 +4318,7 @@
                     <td align="right">0.1785</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8194999999999999</td>
+                    <td align="right">0.8194</td>
                     <td align="right">0.0865</td>
                     <td>Gio's</td>
                     <td align="right">0.0579</td>
@@ -4389,7 +4394,7 @@
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
                     <td align="right">0.861</td>
-                    <td align="right">0.08299999999999999</td>
+                    <td align="right">0.0829</td>
                     <td>Wally's Restaurant</td>
                     <td align="right">0.0246</td>
                     <td align="right">0.0248</td>
@@ -4636,7 +4641,7 @@
                   <tr>
                     <td align="right">0.3468</td>
                     <td align="right">0.3683</td>
-                    <td align="right">0.43015000000000003</td>
+                    <td align="right">0.430153</td>
                     <td align="right">0.0</td>
                     <td align="right">0.829</td>
                     <td align="right">0.151</td>
@@ -4914,7 +4919,7 @@
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
                     <td align="right">0.839</td>
-                    <td align="right">0.056999999999999995</td>
+                    <td align="right">0.05695</td>
                     <td>Pasha</td>
                     <td align="right">0.0763</td>
                     <td align="right">0.0656</td>
@@ -5288,7 +5293,7 @@
                     <td align="right">0.0064</td>
                     <td align="right">0.09505</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8160000000000001</td>
+                    <td align="right">0.8160</td>
                     <td align="right">0.1115</td>
                     <td>Fratelli Ristorante</td>
                     <td align="right">0.0362</td>
@@ -5563,7 +5568,7 @@
                     <td align="right">0.2827</td>
                     <td align="right">0.3382</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7975000000000001</td>
+                    <td align="right">0.7975</td>
                     <td align="right">0.1475</td>
                     <td>CONDUIT</td>
                     <td align="right">0.0389</td>
@@ -5661,9 +5666,9 @@
                   <tr>
                     <td align="right">0.28</td>
                     <td align="right">0.2499</td>
-                    <td align="right">0.23525000000000001</td>
+                    <td align="right">0.23525</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8095000000000001</td>
+                    <td align="right">0.8095</td>
                     <td align="right">0.13</td>
                     <td>Rickybobby</td>
                     <td align="right">0.04</td>
@@ -5688,7 +5693,7 @@
                     <td align="right">0.2629</td>
                     <td align="right">0.2732</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8035000000000001</td>
+                    <td align="right">0.8035</td>
                     <td align="right">0.1365</td>
                     <td>Reaction Restaurant</td>
                     <td align="right">0.0424</td>
@@ -5713,7 +5718,7 @@
                     <td align="right">0.1245</td>
                     <td align="right">0.0</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8354999999999999</td>
+                    <td align="right">0.8354</td>
                     <td align="right">0.0</td>
                     <td>Goldilocks</td>
                     <td align="right">0.0713</td>
@@ -5738,7 +5743,7 @@
                     <td align="right">0.2605</td>
                     <td align="right">0.2732</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7855000000000001</td>
+                    <td align="right">0.7855</td>
                     <td align="right">0.137</td>
                     <td>Kan Zaman</td>
                     <td align="right">0.0477</td>
@@ -6013,7 +6018,7 @@
                     <td align="right">0.2405</td>
                     <td align="right">0.2293</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8075000000000001</td>
+                    <td align="right">0.8075</td>
                     <td align="right">0.129</td>
                     <td>Hisago</td>
                     <td align="right">0.0373</td>
@@ -6063,8 +6068,8 @@
                     <td align="right">0.3526</td>
                     <td align="right">0.39065</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8214999999999999</td>
-                    <td align="right">0.16649999999999998</td>
+                    <td align="right">0.8214</td>
+                    <td align="right">0.16648</td>
                     <td>A Sabella's Restaurant</td>
                     <td align="right">0.013</td>
                     <td align="right">0.0115</td>
@@ -6213,7 +6218,7 @@
                     <td align="right">0.2487</td>
                     <td align="right">0.318</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7384999999999999</td>
+                    <td align="right">0.7384</td>
                     <td align="right">0.202</td>
                     <td>San Francisco Oven</td>
                     <td align="right">0.0321</td>
@@ -6438,8 +6443,8 @@
                     <td align="right">0.2142</td>
                     <td align="right">0.2129</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8554999999999999</td>
-                    <td align="right">0.07999999999999999</td>
+                    <td align="right">0.8554</td>
+                    <td align="right">0.0799</td>
                     <td>K's Cafe</td>
                     <td align="right">0.0129</td>
                     <td align="right">0.0137</td>
@@ -6788,7 +6793,7 @@
                     <td align="right">0.2868</td>
                     <td align="right">0.2072</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7755000000000001</td>
+                    <td align="right">0.7755</td>
                     <td align="right">0.125</td>
                     <td>White Star Cafe</td>
                     <td align="right">0.0491</td>
@@ -7011,9 +7016,9 @@
                   <tr>
                     <td align="right">0.4053</td>
                     <td align="right">0.4053</td>
-                    <td align="right">0.47314999999999996</td>
+                    <td align="right">0.473146</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.8400000000000001</td>
+                    <td align="right">0.8400</td>
                     <td align="right">0.1295</td>
                     <td>Omar's International Cuisine</td>
                     <td align="right">0.0318</td>
@@ -7238,7 +7243,7 @@
                     <td align="right">0.2864</td>
                     <td align="right">0.3818</td>
                     <td align="right">0.0</td>
-                    <td align="right">0.7875000000000001</td>
+                    <td align="right">0.7875</td>
                     <td align="right">0.1565</td>
                     <td>Yuzu</td>
                     <td align="right">0.0314</td>
@@ -7587,6 +7592,10 @@
             </table>
         </div>     
 </div>
+<footer class="footer navbar-fixed-bottom footer-format">
+        <p> &copy; Copyright Not approved by Yelp - Yelp Review Analysis by Anupam Lalwani - Oct 2017 
+        </p> 
+</footer> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

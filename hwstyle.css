@@ -1,7 +1,7 @@
 /*index.html*/
 .home-button{
 padding: 15px;
-margin-left: 20px !important; 
+margin-left: 0px !important; 
 font-weight: 20 !important;
 color:white !important;
 background-color: teal;
@@ -9,9 +9,9 @@ text-align: center;
 }
 
 
-.home-button:hover{
+/*.home-button:hover{
 	color:grey !important;
-}
+}*/
 
 .highlight:hover{
 color: white !important;
@@ -36,7 +36,7 @@ background-color: lightgrey;
 }*/
 
 .summary-pic{
-	width:60%;
+	width:75%;
 	float:left;
 }
 
@@ -47,7 +47,10 @@ background-color: lightgrey;
 }*/
 
 .pie-chart{
-display: inline;
+display: inline !important;
+max-width: 400px;
+max-height: 400px;
+margin: 10px;
 }
 
 .all-pie-charts{
@@ -56,8 +59,12 @@ display: inline;
 
 .pie-chart:hover{
 	border: 3px solid grey;
-
 }
+
+.pie-chart:active{
+border: 3px solid teal;
+}
+
 .anu-left,.anu-right{
 	background-color: white;
 	margin: 10px;
@@ -75,6 +82,18 @@ background-color: white;
 
 }
 
+.scroll{
+height: 450px;
+overflow-y: scroll;
+overflow-x: scroll;
+border: 2px solid teal;
+}
+
+thead{
+	background-color: teal;
+    color:white;
+ }
+
 /*viz1.html*/
 .viz1{
 margin: 5px;
@@ -89,10 +108,14 @@ width: 70%;
 
 }
 
-thead{
-	background-color: teal;
-    color:white;
- }
+/*active link*/
+a { 
+  position: relative;
+}
+a:active {
+  top: 2px;
+}
+
 
 .footer-format{
 background-color: teal;
