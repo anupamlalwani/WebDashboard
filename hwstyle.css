@@ -79,11 +79,12 @@ border: 3px solid teal;
 padding:30px;
 margin-top: 30px;
 background-color: white;
-
 }
+
 
 .scroll{
 height: 450px;
+display: block;
 overflow-y: scroll;
 overflow-x: scroll;
 border: 2px solid teal;
@@ -126,20 +127,11 @@ text-align: center;
 }
 
 
-/*.col-sm-8{
-	padding: 10px;
-}*/
-
-/*over-writing bootstrap*/
-
 /*@media (max-width: 480px) {
   .container {
     width: 450px;
   }
-  body{
-  	background-color: blue;
-  }
-}
+ 
 
 @media (min-width: 481px) and (max-width: 780px){
 	body{

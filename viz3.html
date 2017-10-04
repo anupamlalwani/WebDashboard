@@ -1,13 +1,11 @@
 <!-- viz3.html -->
 
-<!-- viz2.html -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Rating Distribution </title>
+    <title> Negative Score vs Yelp Rating </title>
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css"> -->
@@ -41,12 +39,12 @@
               <ul class="dropdown-menu">
                 <li class="dropdown-highlight " ><a href="viz1.html" class="highlight"> % of Restaurants w/Reviews </a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#" class="highlight">Rating Distrubution</a></li>
+                <li><a href="viz2.html" class="highlight">Rating Distrubution</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="viz3.html" class="highlight">Negative Score vs Yelp Rating</a></li>
+                <li><a href="#" class="highlight">Negative Score vs Yelp Rating</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="viz4.html" class="highlight">Positive Score vs Yelp Rating</a></li>
-                
+                <li role="separator" class="divider"></li>
               </ul>
             </li>
             <li role="separator" class="divider"></li>
@@ -62,12 +60,12 @@
         
         <div class="row">
           <div class="col-md-8 anu-left">
-            <h2 style="color: teal"> Rating Distribution </h2>
+            <h2 style="color: teal"> Vader Sentiment Negative Score vs Yelp Ratings </h2>
             <hr>
 
             <div class="row">
               
-              <img src="assets_vizdash/output_7_0.png" class="img-responsive viz1" alt = "Rating Distribution">
+              <img src="assets_vizdash/output_10_0.png" class="img-responsive viz1" alt = "Negative Score vs Yelp-rating ">
               <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -82,16 +80,17 @@
             <h2 style="color: teal"> Visualizations </h2>
             <hr>
             <div class="row all-pie-charts">
-              <a href="viz1.html" target="_blank">
+
+              <a href="viz1.html">
                 <img src="assets_vizdash/output_6_0.png" class="img-responsive pie-chart" style="width:120px" alt = "Restraunts with reviews">
               </a>
+              <a href="viz2.html">
+                <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="width:120px; ;" alt = "rating distribution">
+              </a>
               <a href="#">
-                <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart" style="width:120px; border:3px solid teal;" alt = "rating distribution">
+                <img src="assets_vizdash/output_10_0.png" class="img-responsive pie-chart" style="width:120px;border:3px solid teal;" alt = "negtive-score vs Yelp-rating">
               </a>
-              <a href="viz3.html" target="_blank">
-                <img src="assets_vizdash/output_10_0.png" class="img-responsive pie-chart" style="width:120px" alt = "negtive-score vs Yelp-rating">
-              </a>
-              <a href="viz4.html" target="_blank">
+              <a href="viz4.html">
                 <img src="assets_vizdash/output_18_0.png" class="img-responsive pie-chart" style="width:120px" alt = "positive-score vs Yelp-rating">
               </a>
             </div>
