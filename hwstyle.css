@@ -48,8 +48,8 @@ background-color: lightgrey;
 
 .pie-chart{
 display: inline !important;
-max-width: 400px;
-max-height: 400px;
+max-width: 450px;
+max-height: 350px;
 margin: 10px;
 }
 
