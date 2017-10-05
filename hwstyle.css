@@ -8,7 +8,9 @@ background-color: teal;
 text-align: center;
 }
 
-
+.container{
+	margin-bottom: 40px;
+}
 /*.home-button:hover{
 	color:grey !important;
 }*/
@@ -35,8 +37,8 @@ background-color: #3e403b;
 }
 
 .comparision{
-	background-color: white;
-	margin-bottom: 40px; 
+	background-color: white !important;
+
 }
 
 .summary-pic{
