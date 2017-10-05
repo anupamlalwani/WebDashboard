@@ -20,23 +20,24 @@ background-image: none;
 
 }
 
-h2{
+h2,h4{
 	color: teal;
 }
 
 /*body { 
 	padding-left : 70px; 
-background-color: lightgrey;
-}*/
-
+background-color: #3e403b;
+}
+*/
 
 .summary-pic,.summary-text{
 	display: inline;
 }
 
-/*.summary-text:hover{
-	color:blue;
-}*/
+.comparision{
+	background-color: white;
+	margin-bottom: 40px; 
+}
 
 .summary-pic{
 	width:75%;

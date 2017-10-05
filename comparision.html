@@ -15,54 +15,54 @@
     <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header" style="background-color: teal">
-          <button type="button" class="navbar-toggle highlight" data-toggle="collapse" data-target = "#bs-example-navbar-collapse-1"  aria-expanded="false">
+          <button type="button" class="navbar-toggle" data-toggle=  "collapse" data-target="#bs-example-navbar-collapse-1"  aria-expanded="false">
             <span class="sr-only"> Toggle navigation </span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <!--    -->
-          <a class="navbar-brand home-button " href="index.html">
-          <span class="glyphicon glyphicon-home"></span>
-            <b> Yelp Review Analysis </b>
+          <a class="navbar-brand home-button " href="#">
+            <span class="glyphicon glyphicon-home "></span>
+             <b> Yelp Review Analysis </b>
           </a>
         </div>
-        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded = "false">
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
               <a class="dropdown-toggle highlight" data-toggle="dropdown" href="#">Plots 
-                <span class="caret"> </span> 
+                <span class="caret"> </span>
               </a>
               <ul class="dropdown-menu">
-                <li class="dropdown-highlight "><a href="viz1.html" class="highlight"> % of Restaurants with Reviews </a></li>
+                <li class="dropdown-highlight "><a target="_blank" href="viz1.html" class="highlight"> % Restaurants with Reviews </a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="viz2.html" class="highlight">Rating Distrubution</a></li>
+                <li><a href="viz2.html" target="_blank" class="highlight">Rating Distrubution</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="viz3.html" class="highlight">Negative Score vs Yelp Rating</a></li>
+                <li><a href="viz3.html" target="_blank" class="highlight">Negative Score vs Yelp Rating</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="viz4.html" class="highlight">Positive Score vs Yelp Rating</a></li>
+                <li><a href="viz4.html" target="_blank" class="highlight">Positive Score vs Yelp Rating</a></li>
                 
               </ul>
             </li>
-            <li><a class="highlight" href="#"> Comparision </a></li>
-            <li ><a target="_blank"  class="highlight" href="convertcsv.html">Data</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a class="highlight" href="comparision.html" target="_blank"> Comparision </a></li>
+            <li><a class="highlight" target="_blank" href="convertcsv.html"> Data </a></li>
             <li><a class="highlight" href="https://github.com/anupamlalwani/YelpProject_UCB" target="_blank"> Code </a></li>
           </ul>
         </div>
-      </div>
+      </div
     </nav>
         <!--################################## starting the body text###########################-->
 
-      
-          <div class="container">
-            <div class="row"> 
+      <!-- <div class="container" style="shape-margin: 10px;"> -->
+          <div class="container comparision" >
+            <div class="row"> <!--row1-->
               <div class="col-md-12"> 
                 <h2> Comparing all visualizations </h2>
                 
               </div>  
             </div>
 
-            <div class="row"> 
+            <div class="row"> <!--row 2-->
               <div class="col-md-12"> 
                 <hr>
                 <p> Click on any plot to read in-depth analysis <p>
@@ -71,44 +71,44 @@
             </div>
             <div class="row all-pie-charts"> <!--ROW3-->
               <div class="col-md-6">
-                <div> <!--does lot of positioning work-->
-                  <h4 style="color:teal"> % of Restaurants with Reviews </h4>
+                <div> 
+                  <h4> % of Restaurants with Reviews </h4>
                     <a href="viz1.html">
                       <img src="assets_vizdash/output_6_0.png" class="img-responsive pie-chart" alt = "Restraunts with reviews">
                     </a>
-                    <hr class="visible-xs visible-sm">
+                    <hr class="hidden-md hidden-lg">
                   </div>
 
-                <div> <!--does lot of positioning work-->
-                  <h4 style="color:teal"> Rating Distributions for Restaurants </h4>
+                <div> 
+                  <h4> Rating Distributions for Restaurants </h4>
                     <a href="viz2.html">
                       <img src="assets_vizdash/output_7_0.png" class="img-responsive pie-chart"  alt = "Rating distributions">
                     </a>
                     <hr class="hidden-md hidden-lg">
                 </div>
             </div>
-              <div class="row all-pie-charts"> <!--ROW2-->
+              <div class="row all-pie-charts"> <!--ROW4-->
                 <div class="col-md-6">
                   <div> 
-                    <h4 style="color:teal"> Vader Sentiment Negative Score vs Yelp Ratings </h4>
+                    <h4> Vader Sentiment Negative Score vs Yelp Ratings </h4>
                     <a href="viz3.html">
                         <img src="assets_vizdash/output_10_0.png" class="img-responsive all-pie-charts pie-chart" alt = "negtive-score vs Yelp-rating">
                     </a>
                     <hr class="hidden-md hidden-lg">
                   </div> 
                   <div>
-                    <h4 style="color:teal"> Vader Sentiment Positive Score vs Yelp Ratings </h4>
+                    <h4> Vader Sentiment Positive Score vs Yelp Ratings </h4>
                     <a href="viz4.html">  
                       <img src="assets_vizdash/output_18_0.png" class="img-responsive all-pie-charts pie-chart" alt = "positive-score vs Yelp-rating">
                     </a>
-                    <hr class="visible-xs visible-sm">
+                    <hr class="hidden-md hidden-lg">
                   </div>
             </div>
             
             <div class="row"></div>
           </div>
-        </div>
-        <hr/>
+        <!-- </div> -->
+        
         <footer class="footer navbar-fixed-bottom footer-format">
         <p> &copy; Copyright - Yelp Review Analysis by Anupam Lalwani - Oct 2017 
         </p> 
