@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> % of Restaurants w/Reviews </title>
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="hwstyle.css">
   </head>
   <body>
     
     <nav class="navbar navbar-default">
-      <!-- <div class="container-fluid"> -->
-      <!-- <nav class="navbar navbar-default"> -->
-      <div class="container">
+    <div class="container">
         <div class="navbar-header" style="background-color: teal">
           <button type="button" class="navbar-toggle" data-toggle=  "collapse" data-target="#bs-example-navbar-collapse-1"  aria-expanded="false">
             <span class="sr-only"> Toggle navigation </span>
@@ -22,7 +20,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <!--   <span class="glyphicon glyphicon-search home-icon"></span> -->
           <a class="navbar-brand home-button " href="index.html">
             <span class="glyphicon glyphicon-home "></span>
             <b> Yelp Review Analysis </b>
@@ -61,17 +58,16 @@
             <h2 style="color: teal"> % of Restraunts with reviews </h2>
             <hr>
 
-            <div class="row">
+            <div class="row" style="text-align: justify;">
               
               <img src="assets_vizdash/output_6_0.png" class="img-responsive viz1" alt = "Restraunts with reviews">
-              <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                
+              <p class="summary-text">
+                We started with scrapping reviews of 300 closed restaurants in San Francisco, CA in order of their appearance on google search. The first task was to find out, of the collected restaurants which restaurants actually had any reviews to be a vaild data point for our research. 
               </p>
+              <p>
+                We were able to find out 92.3% of restaurants (277) did have reviews so our sample data was good enough to work with. Also we took into account if a restaurant had way to many reviews our data processing time was increased to much. To take care of that we limited our reviews to 60 per restaurant for our anlysis.
+              </p>  
+                
             </div>
           </div>
           <div class="col-md-offset-1 col-md-3 anu-right">

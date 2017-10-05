@@ -1,6 +1,6 @@
 /*index.html*/
 .home-button{
-padding: 15px;
+padding: 20px;
 margin-left: 0px !important; 
 font-weight: 20 !important;
 color:white !important;
@@ -20,11 +20,14 @@ background-image: none;
 
 }
 
-
-body { 
-	/*padding-left : 70px; */
-background-color: lightgrey;
+h2{
+	color: teal;
 }
+
+/*body { 
+	padding-left : 70px; 
+background-color: lightgrey;
+}*/
 
 
 .summary-pic,.summary-text{
@@ -78,6 +81,7 @@ border: 3px solid teal;
 .datatable{
 padding:30px;
 margin-top: 30px;
+margin-bottom: 40px;
 background-color: white;
 }
 
@@ -121,7 +125,7 @@ a:active {
 .footer-format{
 background-color: teal;
 color: white;
-padding: 3px;
+padding: 2px;
 text-align: center;
 
 }
@@ -132,10 +136,11 @@ text-align: center;
     width: 450px;
   }
  
-
+*/
+/* testing media query
 @media (min-width: 481px) and (max-width: 780px){
 	body{
 		background-color: green;
 	}
-}
-*/
+}*/
+

@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Visualization Dashboard</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css"> -->
-    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+    <!--####----- using Bootswatch Sandstone theme---####-->
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="hwstyle.css">
   </head>
   <body>
-    <!-- <h1> Latitude </h1> -->
+    
     <nav class="navbar navbar-default">
-      <!-- <div class="container-fluid"> -->
-      <!-- <nav class="navbar navbar-default"> -->
       <div class="container">
         <div class="navbar-header" style="background-color: teal">
           <button type="button" class="navbar-toggle" data-toggle=  "collapse" data-target="#bs-example-navbar-collapse-1"  aria-expanded="false">
@@ -23,7 +22,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <!--   <span class="glyphicon glyphicon-search home-icon"></span> -->
           <a class="navbar-brand home-button " href="#">
             <span class="glyphicon glyphicon-home "></span>
              <b> Yelp Review Analysis </b>
@@ -59,23 +57,28 @@
         
         <div class="row">
           <div class="col-md-8 anu-left">
-            <h2>Yelp review score analysis</h2>
+            <h2> Summary: Yelp review analysis</h2>
             <hr>
-            <div class="row">
+            <div class="row" style="text-align: justify;">
               <img src="assets_vizdash/wordcloud.png" class="img-responsive summary-pic" alt = "wordcloud">
-              <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p class="summary-text"> 
+                I love trying different restaurants and different cuisines. These days there are wide range of restaurants available and I am highly depended on Yelp for reviews before trying a new one.
+              I like Yelp's platform! How people can express their opinions and experience about any place they visited from grocery store to flying schools.
               </p>
+              <p>
+                Coming back to restaurants, sometimes I like a restaurant but it closes and I never understand why or I never get to find out why. So, I and my friend came up with an idea to do some research. Since everyone these days rely on Yelp for restaurant/food reviews; we started thinking - can Yelp reviews influence a restaurant to close? 
+              </p>
+              <p>
+                We did quite some digging by using reviews of some 300 closed restaurants in San Francisco, CA. We used technologies like data scrapping, python - numpy, pandas, matplotlib, nltk, scipy and few others to acquire data and do analysis on it. The figure here indicates that when collecting all reviews and making a wordcloud out of it (meaning the words that were repeated the most will have a bigger size -importance in the word cloud) we could see except for food items, words like 'didn't', 'disappointed','salty','nothing' have quite some importance. Well that's not enough to connect the dots though. But it is clear that people were not very happy visiting those restaurants.
+              </p>
+              <p>
+                  At the end we came to conclusion that Yelp reviews good/bad do not play a big role in closing a restaurant, there might be other reasons. To dig deeper into those reasons might be a good project all together for some other time.
+              </p> 
+              <p>
+                 To find out more about our research please have a look at various plots and data that we summarised on this website. You can also get in-depth details regarding our code and analysis on Code page. Thank you for visiting!
+              </p> 
+
+              
             </div>
           </div>
           <div class="col-md-1"></div>

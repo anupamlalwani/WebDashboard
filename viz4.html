@@ -7,15 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Positive Score vs Yelp Rating </title>
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/sandstone/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="hwstyle.css">
   </head>
   <body>
     
     <nav class="navbar navbar-default">
-      <!-- <div class="container-fluid"> -->
-      <!-- <nav class="navbar navbar-default"> -->
       <div class="container">
         <div class="navbar-header" style="background-color: teal">
           <button type="button" class="navbar-toggle" data-toggle=  "collapse" data-target="#bs-example-navbar-collapse-1"  aria-expanded="false">
@@ -63,16 +61,18 @@
             <h2 style="color: teal"> Vader Sentiment Positive Score vs Yelp Ratings </h2>
             <hr>
 
-            <div class="row">
+            <div class="row" style="text-align: justify;">
               
               <img src="assets_vizdash/output_18_0.png" class="img-responsive viz1" alt = "Positive Score vs Yelp-rating ">
-              <p class="summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                
+              <p class="summary-text">
+                When we were not able to find strong relation between Vader Negative score and Yelp ratings, next step was to check relation between Vader Positive score and Yelp ratings. 
+              </p>
+              <p>
+                As seen in the graph, restaurants seem to have very low Vader positive score and yet higher Yelp ratings. There were few outliers having 0 vader score and 0 ratings, but not many. We were looking for instances where restaurants had lower Vader positive score and lower Yelp ratings. But we did not find many restaurants falling in such category. This made us conclude that Negative/Positive Vader sentiment score does not affect the Yelp ratings. 
+              </p>
+              <p>
+                <h3>Conclusion:</h3>
+                Yelp reviews do not cause restaurants to close!
               </p>
             </div>
           </div>
